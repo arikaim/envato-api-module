@@ -10,7 +10,7 @@
         "homepage": "http://arikaim.com"
     }],
     "require": {
-        "php": ">=7.1",
+        "php": ">=7.2",
         "arikaim/installer": "*", 
         "arikaim/api-client-module": "^1.0.0"      
     },
