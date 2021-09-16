@@ -1,0 +1,15 @@
+{
+    "title": "Envato Api Client",
+    "name": "envatoapi",
+    "type": "package",
+    "class": "EnvatoApi",
+    "package-type": "module",
+    "description": "Envato REST Api client.",
+    "version": "1.0.0",   
+    "repository": "https://github.com/arikaim/envato-api-module.git",
+    "require": {
+        "composer": [  
+            "arikaim/api-client-module"         
+        ]
+    }
+}

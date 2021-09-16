@@ -1,0 +1,20 @@
+{
+    "name": "arikaim/envato-api-module",
+    "description": "Arikam CMS Envato Api Module",
+    "keywords": ["Module", "Arikam CMS Envato Api Module"],
+    "type": "arikaim-module",
+    "license": "GPL-3.0-or-later",
+    "authors": [{
+        "name": "Konstantin Atanasov",
+        "email": "info@arikaim.com",
+        "homepage": "http://arikaim.com"
+    }],
+    "require": {
+        "php": ">=7.1",
+        "arikaim/installer": "*", 
+        "arikaim/api-client-module": "^1.0.0"      
+    },
+    "extra": {
+        "path": "envatoapi"
+    }
+}
