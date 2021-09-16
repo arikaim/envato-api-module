@@ -7,7 +7,7 @@
  * @license     http://www.arikaim.com/license
  * 
 */
-namespace Arikaim\Modules\EnvatoApi\Envato\Functions;
+namespace Arikaim\Modules\EnvatoApi\Functions;
 
 use Arikaim\Modules\Api\AbstractApiFunction;
 use Arikaim\Modules\Api\Interfaces\ApiFunctionInterface;
