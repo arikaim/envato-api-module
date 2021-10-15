@@ -26,6 +26,7 @@ class ListSales extends AbstractApiFunction implements ApiFunctionInterface
     {
         $this
             ->method('GET')
-            ->path('v3/market/author/sales');    
+            ->path('v3/market/author/sales')
+            ->paramsType('query');    
     }
 }

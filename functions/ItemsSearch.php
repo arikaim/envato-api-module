@@ -26,6 +26,7 @@ class ItemsSearch extends AbstractApiFunction implements ApiFunctionInterface
     {
         $this
             ->method('GET')
-            ->path('v1/discovery/search/search/item');    
+            ->path('v1/discovery/search/search/item')
+            ->paramsType('query');    
     }
 }

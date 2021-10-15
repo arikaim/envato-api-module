@@ -26,6 +26,7 @@ class ItemDetails extends AbstractApiFunction implements ApiFunctionInterface
     {
         $this
             ->method('GET')
-            ->path('v3/market/catalog/item');    
+            ->path('v3/market/catalog/item')
+            ->paramsType('query');    
     }
 }

@@ -45,9 +45,10 @@ class EnvatoApiDriver extends AbstractApiClient implements DriverInterface, ApiC
     /**
      * Get authorization header or false if api not uses header for auth
      *
+     * @param array|null $params
      * @return array|null
     */
-    public function getAuthHeaders(): ?array
+    public function getAuthHeaders(?array $params = null): ?array
     {
         return [
             'Authorization: Bearer ' . $this->oauthToken
